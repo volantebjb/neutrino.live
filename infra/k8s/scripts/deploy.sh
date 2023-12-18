@@ -1,3 +1,11 @@
+aws sts get-caller-identity
+
+rm ~/.kube/config 
+
+aws eks update-kubeconfig --region ap-southeast-1 --name neutrino-eks
+
+kubectl config current-context
+
 # Install NLB
 
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.10.0/deploy/static/provider/aws/deploy.yaml
@@ -12,4 +20,4 @@ kubectl apply -f infra/k8s && kubectl apply -f infra/k8s/dev
 
 # For production
 
-kubectl apply -f infra/k8s && kubectl apply -f infra/k8s/dev
+kubectl apply -f infra/k8s && kubectl apply -f infra/k8s/prod
