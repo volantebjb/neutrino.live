@@ -4,14 +4,15 @@ Neutrino is a platform designed for hosting online car auctions, facilitating th
 
 ## Technologies Used
 
-- .NET
-- EKS
+- Node.js
+- React
 - Next.js
+- .NET
 - RabbitMQ
 - Docker
 - Kubernetes
-- GitHub Actions
-- Visual Studio Code
+- AWS EKS
+- Git
 
 ## Getting Started
 
@@ -23,7 +24,7 @@ To get started with deploying and running the application, follow these steps:
 
 ## Acknowledgements
 
-This project is based on the teachings from the "Microservices with .NET and Next.js" course on Udemy by TryCatchLearn. Special thanks to TryCatchLearn for providing valuable insights and knowledge.
+This project is based on the teachings from the ["Microservices with .NET and Next.js"](https://www.udemy.com/course/build-a-microservices-app-with-dotnet-and-nextjs-from-scratch) course on Udemy by Neil Cummings. Special thanks to Neil Cummings for providing valuable insights and knowledge.
 
 ## License
 
